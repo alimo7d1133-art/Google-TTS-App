@@ -33,6 +33,43 @@
 - 📦 **Auto-installs dependencies** on first run
 - 🖥️ **Cross-platform** — Windows, macOS, Linux, Android
 
+
+---
+
+## 📥 Downloads / التحميل
+
+<div dir="rtl" align="right">
+
+### ملفات تنفيذية جاهزة (الإصدار 1.0.0)
+
+</div>
+
+### Pre-built Binaries (v1.0.0)
+
+| Platform | File | Size | Download |
+|----------|------|------|----------|
+| 🐧 Linux (x86_64) | `GoogleTTS-Linux.gz` | ~36.6 MB | [Download](https://customer-assets-cm19k8pv.emergentagent.net/wingman/f1d16721-4a03-43e9-8b76-51be7107108c/attachments/0e28e09cfb6a419495f9bec83629ed62_GoogleTTS-Linux.gz) |
+| 🍎 macOS | `GoogleTTS-Mac.app.zip` | ~8.9 KB | [Download](https://customer-assets-cm19k8pv.emergentagent.net/wingman/f1d16721-4a03-43e9-8b76-51be7107108c/attachments/b9949035fa3940279f79fc9f98a67fa5_GoogleTTS-Mac.app.zip) |
+| 🤖 Android | Not available | — | See note below |
+
+**Linux installation:**
+```bash
+# Download and extract
+gunzip GoogleTTS-Linux.gz
+chmod +x GoogleTTS-Linux
+./GoogleTTS-Linux
+```
+
+**macOS installation:**
+```bash
+# Download and extract
+unzip GoogleTTS-Mac.app.zip
+open GoogleTTS-Mac.app
+```
+
+> ⚠️ **Android APK** could not be built in the current environment due to architecture incompatibility (ARM64 build host vs x86_64 Android SDK build-tools). To build the APK yourself, use an x86_64 Linux machine and run `./build_android.sh`.
+
+
 ---
 
 ## 📂 Project Structure / هيكل المشروع
